@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 public class TC_03_POSTRequestTest  extends ConfigFileReader{
 
 	@Test
-	void postRequestTest() {
+	public void postRequestTest() {
 		
 		RestAssured.baseURI=ConfigFileReader.getBaseURI();
 		RequestSpecification request=RestAssured.given();

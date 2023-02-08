@@ -12,7 +12,7 @@ public class TC_02_GetRequestTest extends ConfigFileReader {
   
 	
 	@Test
-	void GetRequestTest() {
+	public void GetRequestTest() {
 		
 		RestAssured.baseURI=ConfigFileReader.getBaseURI();
 		RequestSpecification request=RestAssured.given();

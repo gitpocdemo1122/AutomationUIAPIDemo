@@ -12,7 +12,7 @@ import io.restassured.specification.RequestSpecification;
 public class TC_05_DELETERequestTest extends ConfigFileReader{
 
 	@Test
-	void deleteRequestTest() {
+	public void deleteRequestTest() {
 		
 		RestAssured.baseURI=ConfigFileReader.getBaseURI();
 		RequestSpecification request=RestAssured.given();
